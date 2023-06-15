@@ -1,22 +1,13 @@
 {
-    "name": "",
-    "category": "",
+    "name": "Replit-v1-CodeInstruct-3B",
+    "category": "codegen",
     "example_input": {
-        "prompt": "Hello I am a [MASK] model."
+        "prompt": "Write a python function that determines if a given number is prime or not"
     },
     "example_output": {
         "outputs":[
             {
-                "score":0.13177461922168732,
-                "token":4827,
-                "token_str":"fashion",
-                "sequence":"hello i am a fashion model."
-            },
-            {
-                "score":0.1120428815484047,
-                "token":2535,
-                "token_str":"role",
-                "sequence":"hello i am a role model."
+                "output": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"
             }
         ]
     },

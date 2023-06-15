@@ -1,3 +1,5 @@
 potassium
+einops
+sentencepiece
 torch
 transformers
