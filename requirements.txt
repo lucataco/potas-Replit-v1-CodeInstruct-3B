@@ -1,5 +1,5 @@
 potassium
-einops
-sentencepiece
-torch
-transformers
+einops==0.6.1
+sentencepiece==0.1.99
+torch==2.0.1
+transformers==4.30.2
